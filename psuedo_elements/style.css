@@ -1,0 +1,22 @@
+p::first-letter{
+    color: darkcyan;
+    font-size: 60px;
+}
+p::first-line{
+    color: chocolate;
+    font-size: 30px;
+    font-weight: 500px;
+}
+li{
+    list-style-type: none;
+    position: relative;
+}
+li::before{
+content: '(^_^)';
+display: block;
+
+}
+li::after{
+content: '(^_^)';
+display: block;
+}
