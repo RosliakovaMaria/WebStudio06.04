@@ -14,9 +14,26 @@ li{
 li::before{
 content: '(^_^)';
 display: block;
+width: 13px;
+border: 1px solid blue;
+position: absolute;
+left: -20px;
+top: 5px;
+transform: rotate(45deg);
 
 }
 li::after{
 content: '(^_^)';
 display: block;
+width: 13px;
+width: 13px;
+border: 1px solid orangered;
+position: absolute;
+left: -20px;
+top: 5px;
+transform: rotate(45deg);
+}
+p::first-letter{
+    color: orange;
+    font-size: 60px;
 }
