@@ -1,39 +1,20 @@
-p::first-letter{
-    color: darkcyan;
-    font-size: 60px;
+.div_1{
+    background-color: darkblue;
+    color: red;
+    text-decoration: white;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.scienceeurope.org%2Fnews%2Fsupport-statement-ukraine%2F&psig=AOvVaw3AvLpSfeBrsCflbjMPGW7r&ust=1681918237850000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCOjxo_Hfs_4CFQAAAAAdAAAAABAD);
+    border: black;
 }
-p::first-line{
-    color: chocolate;
-    font-size: 30px;
-    font-weight: 500px;
-}
-li{
-    list-style-type: none;
-    position: relative;
-}
-li::before{
-content: '(^_^)';
-display: block;
-width: 13px;
-border: 1px solid blue;
-position: absolute;
-left: -20px;
-top: 5px;
-transform: rotate(45deg);
 
+.div_2{
+    background-color: yellow;
+    color: darkblue;
+    text-decoration: black;
+    border: black;
 }
-li::after{
-content: '(^_^)';
-display: block;
-width: 13px;
-width: 13px;
-border: 1px solid orangered;
-position: absolute;
-left: -20px;
-top: 5px;
-transform: rotate(45deg);
+.div_1:hover{
+    color: red;
 }
-p::first-letter{
-    color: orange;
-    font-size: 60px;
+.div_2:hover{
+    color: black;
 }

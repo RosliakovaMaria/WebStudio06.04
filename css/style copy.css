@@ -1,64 +1,11 @@
-/* a {
-    transition: 0,5s all;
-}
-li{
-    list-style-type: none;
-}
-a:hover {
-    color: blue;
-}
-h1.{
-    color: white;
-    font-size: 20px;
-}
-button{
-    color: blue;
-}
-background{
-    background-color: midnightblue;
-}
-a{
-    text-decoration: none;
-} */
-li{
-    list-style-type: none;
-}
-{
-    font-family:  'Playfair Display',  serif;
-}
-.menu_link > a {
-    font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
+.card{
+width: 270px;
+height: 368px;
+left: 814px;
+top: 1635px;
 
-text-decoration: none;
-
-color: #7d7d7d;
 }
-a:hover{
-    color: #03A9F4;
-}
-a:link{
-    color: #7d7d7d;
-}
-.item {
-    width: 906px;
-    height: 1314px;
-    transition: 0,5s all;
-    cursor: pointer;
-}
-.item:hover{
-    transform: scale(1.1);
-}
-.item > {
-    font-family: 'Ubuntu';
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 16px;
-/* identical to box height */
-color: #B4AD9E;
-text-align: ;
+.card img{
+    width: 270px;
+    height: 260px;
 }
