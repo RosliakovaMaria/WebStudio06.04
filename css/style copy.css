@@ -9,3 +9,9 @@ top: 1635px;
     width: 270px;
     height: 260px;
 }
+.good_feature{
+    box-shadow: 10px 5px 5px violet;
+}
+.feature{
+    box-shadow: 15px 10px 10px green;
+}
